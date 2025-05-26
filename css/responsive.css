@@ -63,7 +63,7 @@
     /* navigation bar section */
 
     .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
-        padding: 9px 30px;
+        padding: 9px 25px;
     }
 
     .navbar-expand-lg .navbar-nav .has_dropdown .drp_btn {
@@ -76,10 +76,15 @@
 
     .navbar-expand-lg .navbar-nav .nav-link,
     .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
-
-
+    .navbar-expand-lg .navbar-nav .nav-item .btn_block{
+        margin-left: 10px;
+    font-size: 14px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 40px 10px;
+    }
     .banner_section .banner_slider .right_icon {
         right: -30px;
     }
@@ -234,12 +239,12 @@
 
     .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
         margin: 0;
-        background: #35b0f4;
+        background: #fe0303;
         color: var(--text-white);
     }
 
     .nav-item .btn_bottom {
-        border: 1px solid var(--primery);
+        border: 1px solid #fe0303   ;
     }
 
     .navbar-expand-lg .navbar-nav .has_dropdown {
@@ -304,11 +309,15 @@
     }
 
     .navbar-expand-lg .navbar-nav .nav-item:not(:last-child) {
-        width: 100%;
+        /* width: 100%; */
+        width: auto;
+    }
+    footer h5{
+        margin-top: 40px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 5px 10px;
+        padding: 8px 10px;
         width: 100%;
         display: block;
         text-align: left;
@@ -516,7 +525,8 @@
 
     footer {
         background-position: 70% 0%;
-        padding: 50px 0;
+        /* padding: 50px 0; */
+        padding: 0px 0;
     }
 
     .footer_overlay {
