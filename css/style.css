@@ -821,12 +821,14 @@ header.fixed .navbar {
 .banner_section .app_btn li a {
     display: block;
     padding: 15px 35px;
-    background-color: var(--bg-white);
+    /* background-color: var(--bg-white); */
+    background-color: #fe0303;
     border: none;
     position: relative;
     border-radius: 12px;
     transition: .4s all;
     font-weight: 600;
+    color: #fff;
 }
 
 
@@ -3925,11 +3927,12 @@ footer .download_side .app_btn li a img {
 .contact_inner {
     max-width: 1370px;
     margin: 0 auto;
-    background-color: #E9F5FF;
+    /* background-color: #E9F5FF; */
     padding: 75px 0;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .contact_form .dotes_blue {
