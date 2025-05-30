@@ -3951,10 +3951,10 @@ footer .download_side .app_btn li a img {
 }
 
 .contact_form form .form-group .form-control {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #cfcfcf;
     color: #777777;
-    height: 60px;
+    height: 50px;
     padding: 10px 20px;
     background-color: var(--bg-white);
 }
@@ -3962,6 +3962,7 @@ footer .download_side .app_btn li a img {
 
 .contact_form form .form-group .form-control::placeholder {
     color: var(--black);
+    
 }
 
 .contact_form form .form-group textarea.form-control {
