@@ -2285,7 +2285,7 @@ footer h2, footer h5, footer p, footer a{
 
 footer .logo_side .logo {
     margin-bottom: 40px;
-    width: 15px;;
+    width: auto;;
 }
 
 footer .logo_side .logo a img {
