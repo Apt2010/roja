@@ -2412,6 +2412,7 @@ footer .download_side .app_btn li a img {
 
 .footer_bottom {
     /* max-width: 1370px; */
+    border-top: 1px solid #3d3d3d;
     margin: 0 auto;
     background-color:rgb(62 62 62 / 10%);
     /* border-radius: 20px;*/
